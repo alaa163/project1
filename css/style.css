@@ -1,0 +1,173 @@
+.container h1 {
+    font-weight: bolder;
+    
+}
+.container .test {
+    color:gray;
+    line-height: 30px;
+}
+.advisor-member {
+    position: relative;
+    overflow: hidden;
+}
+.advisor-member .caption1{
+
+    position: absolute;
+    left:15px;
+    bottom: 105%;
+    height: 90%;
+    width: 90%;
+    transition: 1s;
+    color:white !important;
+    
+}
+.advisor-member .caption1 a {
+    color:#ffb606 !important;
+    text-decoration: none;
+}
+.advisor-member .caption2 {
+    background-color: bisque;
+    width: 85%;
+    position: absolute;
+    top:70%;
+    left:25px;
+    transition: 1s;
+    color:black;
+}
+.advisor-member .caption2 p{
+    color:#ffb606 !important;
+}
+.advisor-member:hover .caption1{
+    bottom: 5%;
+}
+.advisor-member:hover .caption2{
+    top:105%;
+}
+.cata {
+    padding: 5rem;
+}
+.cata .container {
+    width: 70%;
+}
+.cata .container p{
+    color:darkgray;
+}
+
+.Categori-item .div1{
+    background-image: url(../images/cat.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    
+    
+    
+}
+.Categori-item  .div1 .overlay {
+    height: 100%;
+    width: 100%;
+    background-color:#337ab7;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.Categori-item  .fan1 .overlay{
+    background-color: #17a2b8;
+    
+}
+.Categori-item  .fan2 .overlay{
+    background-color: #28a745;
+    
+}
+    .Categori-item  .fan3 .overlay{
+    background-color:#20c997;
+    
+}
+  .Categori-item  .fan4 .overlay{
+    background-color:#ffc107;
+    
+}
+  .Categori-item  .fan5 .overlay{
+    background-color:;
+    
+}
+  .Categori-item  .fan6 .overlay{
+    background-color:#e83e8c;
+    
+}
+  .Categori-item  .fan7 .overlay{
+    background-color:#dc3545;
+    
+}
+    
+.Categori-item .div1:hover .overlay{
+    background-color: rgba(51,122,180,0.58);
+}
+.team1 {
+    position: relative;
+    transition: 1s;
+}
+.team1:hover .icon{
+    opacity: 1;
+    background-color: rgba(247, 202, 24, 0.7);
+}
+.team1 .icon {
+    background-color: #ffc107;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    opacity: 0;
+
+}
+.team1 .icon i {
+    color:white;
+}
+
+.thread .toko {
+    font-style: italic;
+    color:gray;
+}
+#contact{
+    background-image: url(../images/map-image.png);
+    background-color: black;
+    
+}
+#contact .margin {
+    padding-top: 5rem;
+}
+#home {
+    background-image: url(../images/header-bg.jpg);
+    height:750px;
+    background-size: cover;
+    background-position: center center;
+}
+#home .content1 {
+    
+}
+#home .content1 h2 {
+    font-size:40px;
+    font-style:italic;
+}
+#home .content1 p {
+    font-size:55px;
+    font-weight: bold;
+}
+.navbar a
+{
+    color: white !important;
+}
+.container .navbar-brand {
+    color:yellow !important;
+    font-style: italic;
+}
+.container .navbar-brand:hover {
+    opacity:0.7;
+    
+}
+.navbar a:hover {
+    color:yellow !important;
+}
+.body{
+    font-family: Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
